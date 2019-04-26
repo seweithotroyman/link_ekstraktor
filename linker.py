@@ -17,7 +17,7 @@ def hasilkan_link(page):
     return cocokan_link.findall(page)
 
 if __name__ == '__main__':
-    target_url = 'https://www.apress.com/'
+    target_url = input("Masukkan link website :")
     website = download_halaman(target_url)
     links = hasilkan_link(website)
     
