@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 27 00:24:14 2019
 
-@author: hehehe
+@author: Seweit Hotroiman
 """
 
 from urllib.request import urlopen, urljoin
